@@ -14,7 +14,6 @@ plt.ylabel('sepal width')
 plt.title('analysis on iris datasets')
 plt.legend()
 plt.show()
-%matplotlib qt5
 
 
 plt.scatter(X[y==0,2],X[y==0,3],c="r",label="Setosa")
